@@ -1,0 +1,33 @@
+=== TABLE DES MATIÈRES ===
+
+ **Sujet 2 : LLM finement ajusté pour classification de sentiments + réponses contextuelles**
+ PARTIE I: construire tester et sauvegarder un modèle de classification
+   1.1 installation des librairies
+   1.2 importation modules
+   1.3 charger et préparer le dataset IMDB
+   1.4 charger le tokenizer et le modèle pré-entrainé
+   1.5 Tokenizer le Dataset
+   1.6 Configure LoRA pour un Fine-Tuning plus rapide
+   1.7 mise en place du process de training
+   1.8 split des données entre train et validation
+   1.9 entrainer le modèle
+   1.10 tester le modèle sur quelques exemples
+   1.11 sauvegarder le modèle entrainé
+ PARTIE II: construire, tester un modèle de génération augmentée par récupération (modèle RAG)
+   2.1 construction du modèle. Vectorisation du corpus.
+   2.2 mise en place de l'index de similarité. Test sur un exemple
+   2.3 test de récupération de texte
+   2.4 sauvegarde du corpus, textes et vecteurs
+   2.5 personnalisation du modèle de génération de texte à partir du modèle entrainé
+   2.6 Modèle Génération de code
+   2.7 Sauvegarde du modèle
+ PARTIE III: EVALUATION DU MODELE
+   3.1 évaluation avec des métriques
+     3.1.1 création des métriques
+     3.1.2 test du modèle avec les métriques créées
+   3.2 tests de robustesse
+   3.3 robustesse avec fonction groupée et réponse vocale
+     pour lecture de texte
+ PARTIE IV: création  et téléchargement du fichier des bibliothèques utilisées avec leur version
+   4.1 création du fichier de bibliothèques
+   4.2 affichage du fichier
